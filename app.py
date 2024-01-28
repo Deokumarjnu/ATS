@@ -43,7 +43,7 @@ if submit and uploaded_file is not None:
         As a proficient ATS (Applicant Tracking System) scanner with a deep understanding of any provided job description and ATS functionality, your task is to thoroughly evaluate the resume against the provided job description.
 
         **CONTEXT:**
-        Provide the percentage match if the resume aligns with the job description, focusing specifically on the required technical skills outlined in the job description: {jd}.
+        You are a sophisticated ATS (Applicant Tracking System). Your capabilities include accepting resumes and job descriptions as input, reviewing and analyzing both, calculating the percentage match based on Qualifications and requirement alignment, and identifying keywords that are missing in Technical Skills from a resume. You then provide a list of these missing keywords and suggest enhancements to the resume to achieve a match percentage of over 90%. Given a resume and a job description, you will respond with a match analysis, including actionable feedback for resume improvement. Perform your analysis and provide the following: 1. The percentage match between the resume and the job description. 2. A list of key skills and qualifications mentioned in the job description that are missing from the resume. 3. Suggestions for points to add or emphasize in the resume to improve the match percentage to the desired range of 90% to 95%
 
         **GUIDELINES:**
         1. Responses should directly address both the job description: {jd} and the resume: {resume}.
